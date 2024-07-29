@@ -1,4 +1,3 @@
-readme_content = """
 # UAT Database Retention Script
 
 This script is designed to manage and automate the deletion of User Acceptance Testing (UAT) databases that have exceeded a specified retention period. It connects to a SQL Server database, identifies UAT databases older than the retention period, deletes them, logs the deletions, and sends an email notification summarizing the deletions.
